@@ -1,13 +1,13 @@
 function minDate(dates) {
   //write you code here
-	int n = dates.length;
+	let n = dates.length;
 	let mindate = dates[0];
-	for(int i=1;i<n;i++)
+	for(let i=1;i<n;i++)
 	{
 		if(mindate > dates[i])
 		mindate = dates[i];
 	}
-	console.log(mindate);
+	return mindate;
 }
 
 // Do not change the code
